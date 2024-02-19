@@ -1,0 +1,111 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('8.jpg'); /* Replace 'background.jpg' with the correct path to your background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Ensure the background covers the entire viewport */
+}
+
+/* Header styles */
+header {
+    background-color: rgba(0, 0, 0, 1); /* Add a semi-transparent overlay */
+    color: #fff;
+    padding: 80px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header h1 {
+    float: left;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* About section styles */
+#about {
+    background-color: rgba(0, 0, 0, 0); /* Add a semi-transparent overlay */
+   
+    padding: 200px 0;
+    
+    color: red;
+    
+    border: 10px solid #000000;
+    -webkit-text-stroke: 0.1px #000000;
+    font-size: 24px;
+    
+    .text-background {
+    background-color: red; /* Pink background color */
+}
+
+.text-pink {
+    color: black; /* Pink text color */
+}
+
+
+    text-align: center;
+}
+.text-size {
+
+  font-size: 35px;
+
+       }
+
+.text-mbackground {
+    background-color: black; /* Pink background color */
+}
+
+
+/* Portfolio section styles */
+#portfolio {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 50px 0;
+    text-align: center;
+    border: 10px solid #000000;
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-item {
+    display: inline-block;
+    margin: 0 20px;
+    border: 5px solid red;
+	
+}
+
+.portfolio-item img {
+    width: 300px;
+    height: 200px;
+}
+
+
+/* Contact section styles */
+#contact {
+    background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent overlay */
+    color: #fff;
+    border: 10px solid #000000;
+    padding: 50px 0;
+    text-align: center;
+}
